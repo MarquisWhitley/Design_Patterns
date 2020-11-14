@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Design Patterns</title>
+  </head>
+  <body>
+    <!-- <h1>Hello World</h1> -->
+    <!-- <main class="container"></main> -->
+
+    <main id="design_patterns-container">
+      <!-- Multiple Pointers  -->
+
+      <section id="section" class="multiple-pointers">
+        <h1 class="multiple-pointers_h1">Muiltiple Pointers</h1>
+        <div class="options_container">
+          <div class="start-buttons">
+            <button type="button" class="start start-mp">START</button>
+            <button type="button" class="reset reset-mp">RESET</button>
+          </div>
+          <div class="options">
+            <label for="primary">Primary Color: </label>
+            <select name="primary-color" id="primary-color">
+              <option value="aqua">Aqua</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+              <option value="lime">Lime</option>
+              <option value="maroon">Maroon</option>
+              <option value="navy">Navy</option>
+              <option value="orange">Orange</option>
+              <option value="pink">Pink</option>
+              <option value="purple">Purple</option>
+              <option value="red">Red</option>
+              <option value="silver">Silver</option>
+              <option value="yellow">Yellow</option>
+            </select>
+            <label for="secondary">Secondary Color: </label>
+            <select name="secondary-color" id="secondary-color">
+              <option value="yellow">Yellow</option>
+              <option value="silver">Silver</option>
+              <option value="red">Red</option>
+              <option value="purple">Purple</option>
+              <option value="pink">Pink</option>
+              <option value="orange">Orange</option>
+              <option value="navy">Navy</option>
+              <option value="maroon">Maroon</option>
+              <option value="lime">Lime</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+              <option value="aqua">Aqua</option>
+            </select>
+            <label for="speed">Speed: </label>
+            <input type="range" name="speed" id="speed" min="10" max="150" />
+          </div>
+        </div>
+        <aside id="main-container_multiple-pointers">
+          <div id="multiple-pointers"></div>
+        </aside>
+      </section>
+
+      <!-- Sliding Window -->
+
+      <section id="section" class="sliding-window">
+        <h1 class="sliding-window_h1">Sliding Window</h1>
+        <!-- sw = sliding-window -->
+        <div class="options_container">
+          <div class="start-buttons">
+            <button type="button" class="start start-sw">START</button>
+            <button type="button" class="reset reset-sw">RESET</button>
+          </div>
+          <div class="options">
+            <label for="primary">Primary Color: </label>
+            <select name="primary-color" id="primary-color">
+              <option value="aqua">Aqua</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+              <option value="lime">Lime</option>
+              <option value="maroon">Maroon</option>
+              <option value="navy">Navy</option>
+              <option value="orange">Orange</option>
+              <option value="pink">Pink</option>
+              <option value="purple">Purple</option>
+              <option value="red">Red</option>
+              <option value="silver">Silver</option>
+              <option value="yellow">Yellow</option>
+            </select>
+            <label for="secondary">Secondary Color: </label>
+            <select name="secondary-color" id="secondary-color">
+              <option value="yellow">Yellow</option>
+              <option value="silver">Silver</option>
+              <option value="red">Red</option>
+              <option value="purple">Purple</option>
+              <option value="pink">Pink</option>
+              <option value="orange">Orange</option>
+              <option value="navy">Navy</option>
+              <option value="maroon">Maroon</option>
+              <option value="lime">Lime</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+              <option value="aqua">Aqua</option>
+            </select>
+            <label for="speed">Speed: </label>
+            <input type="range" name="speed" id="speed" min="10" max="175" />
+          </div>
+        </div>
+        <aside id="main-container_sliding-window">
+          <div id="sliding-window"></div>
+        </aside>
+      </section>
+
+      <!-- Frequency Counter -->
+      <section id="section" class="frequency-counter">
+        <h1 class="frequency-counter_h1">Frequency Counter</h1>
+        <div id="navbar">
+          <div class="input-container">
+            <label for="word">Word: </label>
+            <input type="text" name="word" id="word" />
+          </div>
+
+          <div class="buttons">
+            <button id="start-fc" class="start">START</button>
+            <button id="reset-fc" class="reset">RESET</button>
+            <label for="case"> Case Sensitive</label>
+            <input type="checkbox" id="case-sensitive" name="case" />
+            <br />
+            <br />
+            <label for="speed">Speed: </label>
+            <input type="range" name="speed" id="speed-fc" min="50" max="300" />
+          </div>
+
+          <div class="include-container">
+            <div id="list1" class="dropdown-check-list" tabindex="100">
+              <span class="anchor">Include</span>
+              <ul class="items">
+                <li>
+                  <input
+                    type="checkbox"
+                    id="includes"
+                    class="capitalLetters"
+                    checked
+                  />Capital Letters
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="includes"
+                    class="lowerCaseLetters"
+                    checked
+                  />Lowercase Letters
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="includes"
+                    class="numbers"
+                    checked
+                  />Numbers
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="includes"
+                    class="specialChars"
+                  />Special Characters
+                </li>
+                <li>
+                  <input type="checkbox" id="includes" class="spaces" />Spaces
+                </li>
+                <li>
+                  <input type="checkbox" id="includes" class="commas" />Commas
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="includes"
+                    class="punctuation"
+                  />Punctuation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <main id="container">
+          <h1 id="inputValue"></h1>
+        </main>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
