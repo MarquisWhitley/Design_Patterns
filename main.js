@@ -1,11 +1,11 @@
-import { multiplePointers } from './Design_Patterns/Multiple_Pointers.js';
-import { slidingWindow } from './Design_Patterns/Sliding_Window.js';
+import { multiplePointers } from './Problem_Solving_Patterns/Multiple_Pointers.js';
+import { slidingWindow } from './Problem_Solving_Patterns/Sliding_Window.js';
 import {
   caseSensCheck,
   specCheck,
   areThereDuplicates,
   resetInput,
-} from './Design_Patterns/Frequency_Counter.js';
+} from './Problem_Solving_Patterns/Frequency_Counter.js';
 
 // Utility Variables
 
